@@ -1,0 +1,64 @@
+/*reset*/
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+html,body{
+  height:100%;
+}
+body{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color:#fff;
+  text-align:center;
+}
+a {
+  color: #00B7FF;
+}
+header,.left,.right{
+  position:absolute;
+}
+header{
+  height:100px;
+  left:10px;
+  top:10px;
+  right:10px;
+  border:1px solid #fff;
+}
+header h1{
+  font-size:40px;
+  line-height:60px;
+}
+header ul li{
+  display: inline-block;
+}
+.left{
+  left:10px;
+  top:120px;
+  bottom:10px;
+  width:200px;
+  border:1px solid #fff;
+}
+.left ul{
+  overflow:auto;
+}
+.left ul li {
+  max-width: 300px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.selected{
+  color:green;
+}
+.right{
+  top:120px;
+  right:10px;
+  bottom:10px;
+  left:220px;
+  border:1px solid #fff;
+}
